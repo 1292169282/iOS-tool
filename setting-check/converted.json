@@ -1,0 +1,1204 @@
+{
+  "classes" : {
+
+  },
+  "objectVersion" : "46",
+  "archiveVersion" : "1",
+  "objects" : {
+    "B7DC69561E56DA1E004C6362" : {
+      "path" : "XG_DemoTests.m",
+      "isa" : "PBXFileReference",
+      "lastKnownFileType" : "sourcecode.c.objc",
+      "sourceTree" : "<group>"
+    },
+    "B7DC69551E56DA1E004C6362" : {
+      "path" : "XG-DemoTests",
+      "isa" : "PBXGroup",
+      "children" : [
+        "B7DC69561E56DA1E004C6362",
+        "B7DC69581E56DA1E004C6362"
+      ],
+      "sourceTree" : "<group>"
+    },
+    "689C13881DC34C27001D8E6C" : {
+      "isa" : "PBXBuildFile",
+      "fileRef" : "689C13871DC34C27001D8E6C"
+    },
+    "689C13871DC34C27001D8E6C" : {
+      "path" : "Assets.xcassets",
+      "isa" : "PBXFileReference",
+      "lastKnownFileType" : "folder.assetcatalog",
+      "sourceTree" : "<group>"
+    },
+    "689C138F1DC34C27001D8E6C" : {
+      "isa" : "XCConfigurationList",
+      "defaultConfigurationIsVisible" : "0",
+      "defaultConfigurationName" : "Release",
+      "buildConfigurations" : [
+        "689C13901DC34C27001D8E6C",
+        "689C13911DC34C27001D8E6C",
+        "C24A70F01F3AB649007F2360"
+      ]
+    },
+    "C25D80F91FDEA83300057666" : {
+      "path" : "System\/Library\/Frameworks\/PushKit.framework",
+      "isa" : "PBXFileReference",
+      "name" : "PushKit.framework",
+      "lastKnownFileType" : "wrapper.framework",
+      "sourceTree" : "SDKROOT"
+    },
+    "689C13901DC34C27001D8E6C" : {
+      "isa" : "XCBuildConfiguration",
+      "buildSettings" : {
+        "LD_RUNPATH_SEARCH_PATHS" : "$(inherited) @executable_path\/Frameworks",
+        "PRODUCT_NAME" : "$(TARGET_NAME)",
+        "DEVELOPMENT_TEAM" : "299MFJ63GP",
+        "PROVISIONING_PROFILE" : "5b3bdba7-3360-4930-ac8e-29064294548a",
+        "TARGETED_DEVICE_FAMILY" : "1",
+        "INFOPLIST_FILE" : "XG-Demo\/Info.plist",
+        "CODE_SIGN_IDENTITY" : "iPhone Developer: guo dong li (8JQ353ME6X)",
+        "PROVISIONING_PROFILE_SPECIFIER" : "xgdemo_dev",
+        "CODE_SIGN_ENTITLEMENTS" : "XG-Demo\/XG-Demo.entitlements",
+        "ASSETCATALOG_COMPILER_APPICON_NAME" : "AppIcon",
+        "OTHER_LDFLAGS" : "-ObjC",
+        "CODE_SIGN_IDENTITY[sdk=iphoneos*]" : "iPhone Developer: guo dong li (8JQ353ME6X)",
+        "IPHONEOS_DEPLOYMENT_TARGET" : "8.0",
+        "LIBRARY_SEARCH_PATHS" : [
+          "$(inherited)",
+          "$(PROJECT_DIR)\/sdk"
+        ],
+        "PRODUCT_BUNDLE_IDENTIFIER" : "com.tencent.teg.XGDemo"
+      },
+      "name" : "Debug"
+    },
+    "689C13951DC34C48001D8E6C" : {
+      "path" : "libXG-SDK.a",
+      "isa" : "PBXFileReference",
+      "lastKnownFileType" : "archive.ar",
+      "sourceTree" : "<group>"
+    },
+    "C24A710C1F3AB75D007F2360" : {
+      "buildConfigurationList" : "C24A711C1F3AB75D007F2360",
+      "productReference" : "C24A710D1F3AB75D007F2360",
+      "productType" : "com.apple.product-type.app-extension",
+      "productName" : "XGContent",
+      "isa" : "PBXNativeTarget",
+      "buildPhases" : [
+        "C24A71091F3AB75D007F2360",
+        "C24A710A1F3AB75D007F2360",
+        "C24A710B1F3AB75D007F2360"
+      ],
+      "dependencies" : [
+
+      ],
+      "name" : "XGContent",
+      "buildRules" : [
+
+      ]
+    },
+    "C24A710D1F3AB75D007F2360" : {
+      "path" : "XGContent.appex",
+      "isa" : "PBXFileReference",
+      "includeInIndex" : "0",
+      "explicitFileType" : "wrapper.app-extension",
+      "sourceTree" : "BUILT_PRODUCTS_DIR"
+    },
+    "C26B2A221FCEACED00935B03" : {
+      "isa" : "PBXBuildFile",
+      "fileRef" : "689C13A21DC34D22001D8E6C"
+    },
+    "689C13851DC34C27001D8E6C" : {
+      "path" : "Base.lproj\/Main.storyboard",
+      "isa" : "PBXFileReference",
+      "name" : "Base",
+      "lastKnownFileType" : "file.storyboard",
+      "sourceTree" : "<group>"
+    },
+    "689C13861DC34C27001D8E6C" : {
+      "isa" : "PBXBuildFile",
+      "fileRef" : "689C13841DC34C27001D8E6C"
+    },
+    "C2BE502B1FE936D500D593AA" : {
+      "path" : "sdk\/extesion\/libXGExtension.a",
+      "isa" : "PBXFileReference",
+      "name" : "libXGExtension.a",
+      "lastKnownFileType" : "archive.ar",
+      "sourceTree" : "SOURCE_ROOT"
+    },
+    "C2BE502C1FE936D500D593AA" : {
+      "isa" : "PBXBuildFile",
+      "fileRef" : "C2BE502B1FE936D500D593AA"
+    },
+    "689C138D1DC34C27001D8E6C" : {
+      "isa" : "XCBuildConfiguration",
+      "buildSettings" : {
+        "GCC_WARN_UNDECLARED_SELECTOR" : "YES",
+        "IPHONEOS_DEPLOYMENT_TARGET" : "8.0",
+        "CLANG_ENABLE_OBJC_ARC" : "YES",
+        "CLANG_WARN_DIRECT_OBJC_ISA_USAGE" : "YES_ERROR",
+        "CLANG_WARN__DUPLICATE_METHOD_MATCH" : "YES",
+        "CLANG_WARN_INFINITE_RECURSION" : "YES",
+        "CODE_SIGN_IDENTITY[sdk=iphoneos*]" : "iPhone Developer",
+        "SDKROOT" : "iphoneos",
+        "CLANG_CXX_LANGUAGE_STANDARD" : "gnu++0x",
+        "ENABLE_TESTABILITY" : "YES",
+        "CLANG_WARN_BOOL_CONVERSION" : "YES",
+        "CLANG_WARN_UNREACHABLE_CODE" : "YES",
+        "ENABLE_STRICT_OBJC_MSGSEND" : "YES",
+        "CLANG_ANALYZER_NONNULL" : "YES",
+        "GCC_PREPROCESSOR_DEFINITIONS" : [
+          "DEBUG=1",
+          "$(inherited)"
+        ],
+        "CLANG_WARN_ENUM_CONVERSION" : "YES",
+        "GCC_WARN_64_TO_32_BIT_CONVERSION" : "YES",
+        "CLANG_WARN_SUSPICIOUS_MOVES" : "YES",
+        "GCC_WARN_UNINITIALIZED_AUTOS" : "YES_AGGRESSIVE",
+        "CLANG_WARN_EMPTY_BODY" : "YES",
+        "GCC_WARN_ABOUT_RETURN_TYPE" : "YES_ERROR",
+        "GCC_DYNAMIC_NO_PIC" : "NO",
+        "GCC_C_LANGUAGE_STANDARD" : "gnu99",
+        "GCC_WARN_UNUSED_VARIABLE" : "YES",
+        "CLANG_ENABLE_MODULES" : "YES",
+        "GCC_NO_COMMON_BLOCKS" : "YES",
+        "CLANG_WARN_INT_CONVERSION" : "YES",
+        "ALWAYS_SEARCH_USER_PATHS" : "NO",
+        "CLANG_WARN_OBJC_ROOT_CLASS" : "YES_ERROR",
+        "MTL_ENABLE_DEBUG_INFO" : "YES",
+        "GCC_OPTIMIZATION_LEVEL" : "0",
+        "CLANG_WARN_CONSTANT_CONVERSION" : "YES",
+        "COPY_PHASE_STRIP" : "NO",
+        "TARGETED_DEVICE_FAMILY" : "1,2",
+        "ONLY_ACTIVE_ARCH" : "YES",
+        "GCC_WARN_UNUSED_FUNCTION" : "YES",
+        "DEBUG_INFORMATION_FORMAT" : "dwarf",
+        "CLANG_WARN_DOCUMENTATION_COMMENTS" : "YES",
+        "CLANG_CXX_LIBRARY" : "libc++"
+      },
+      "name" : "Debug"
+    },
+    "689C138E1DC34C27001D8E6C" : {
+      "isa" : "XCBuildConfiguration",
+      "buildSettings" : {
+        "ENABLE_NS_ASSERTIONS" : "NO",
+        "CLANG_CXX_LIBRARY" : "libc++",
+        "CLANG_ENABLE_OBJC_ARC" : "YES",
+        "CLANG_WARN_DIRECT_OBJC_ISA_USAGE" : "YES_ERROR",
+        "GCC_WARN_UNDECLARED_SELECTOR" : "YES",
+        "CLANG_WARN__DUPLICATE_METHOD_MATCH" : "YES",
+        "CLANG_WARN_INFINITE_RECURSION" : "YES",
+        "CODE_SIGN_IDENTITY[sdk=iphoneos*]" : "iPhone Developer",
+        "SDKROOT" : "iphoneos",
+        "CLANG_CXX_LANGUAGE_STANDARD" : "gnu++0x",
+        "CLANG_WARN_BOOL_CONVERSION" : "YES",
+        "CLANG_WARN_UNREACHABLE_CODE" : "YES",
+        "ENABLE_STRICT_OBJC_MSGSEND" : "YES",
+        "CLANG_ANALYZER_NONNULL" : "YES",
+        "CLANG_WARN_ENUM_CONVERSION" : "YES",
+        "GCC_WARN_64_TO_32_BIT_CONVERSION" : "YES",
+        "CLANG_WARN_SUSPICIOUS_MOVES" : "YES",
+        "GCC_WARN_UNINITIALIZED_AUTOS" : "YES_AGGRESSIVE",
+        "CLANG_WARN_EMPTY_BODY" : "YES",
+        "GCC_WARN_ABOUT_RETURN_TYPE" : "YES_ERROR",
+        "GCC_WARN_UNUSED_VARIABLE" : "YES",
+        "GCC_C_LANGUAGE_STANDARD" : "gnu99",
+        "CLANG_ENABLE_MODULES" : "YES",
+        "GCC_NO_COMMON_BLOCKS" : "YES",
+        "CLANG_WARN_INT_CONVERSION" : "YES",
+        "ALWAYS_SEARCH_USER_PATHS" : "NO",
+        "CLANG_WARN_OBJC_ROOT_CLASS" : "YES_ERROR",
+        "MTL_ENABLE_DEBUG_INFO" : "NO",
+        "COPY_PHASE_STRIP" : "NO",
+        "CLANG_WARN_CONSTANT_CONVERSION" : "YES",
+        "TARGETED_DEVICE_FAMILY" : "1,2",
+        "VALIDATE_PRODUCT" : "YES",
+        "GCC_WARN_UNUSED_FUNCTION" : "YES",
+        "DEBUG_INFORMATION_FORMAT" : "dwarf-with-dsym",
+        "IPHONEOS_DEPLOYMENT_TARGET" : "8.0",
+        "CLANG_WARN_DOCUMENTATION_COMMENTS" : "YES"
+      },
+      "name" : "Release"
+    },
+    "689C13811DC34C26001D8E6C" : {
+      "path" : "ViewController.h",
+      "isa" : "PBXFileReference",
+      "lastKnownFileType" : "sourcecode.c.h",
+      "sourceTree" : "<group>"
+    },
+    "689C13921DC34C48001D8E6C" : {
+      "path" : "sdk",
+      "isa" : "PBXGroup",
+      "children" : [
+        "689C13951DC34C48001D8E6C",
+        "689C13961DC34C48001D8E6C"
+      ],
+      "sourceTree" : "<group>"
+    },
+    "C24A710A1F3AB75D007F2360" : {
+      "isa" : "PBXFrameworksBuildPhase",
+      "buildActionMask" : "2147483647",
+      "files" : [
+        "C24A71101F3AB75D007F2360",
+        "C24A710E1F3AB75D007F2360"
+      ],
+      "runOnlyForDeploymentPostprocessing" : "0"
+    },
+    "C24A710B1F3AB75D007F2360" : {
+      "isa" : "PBXResourcesBuildPhase",
+      "buildActionMask" : "2147483647",
+      "files" : [
+        "C24A71171F3AB75D007F2360"
+      ],
+      "runOnlyForDeploymentPostprocessing" : "0"
+    },
+    "689C13A31DC34D22001D8E6C" : {
+      "isa" : "PBXBuildFile",
+      "fileRef" : "689C13A21DC34D22001D8E6C"
+    },
+    "689C13A21DC34D22001D8E6C" : {
+      "path" : "usr\/lib\/libz.tbd",
+      "isa" : "PBXFileReference",
+      "name" : "libz.tbd",
+      "lastKnownFileType" : "sourcecode.text-based-dylib-definition",
+      "sourceTree" : "SDKROOT"
+    },
+    "689C13831DC34C27001D8E6C" : {
+      "isa" : "PBXBuildFile",
+      "fileRef" : "689C13821DC34C27001D8E6C"
+    },
+    "689C13841DC34C27001D8E6C" : {
+      "isa" : "PBXVariantGroup",
+      "name" : "Main.storyboard",
+      "children" : [
+        "689C13851DC34C27001D8E6C"
+      ],
+      "sourceTree" : "<group>"
+    },
+    "689C13781DC34C26001D8E6C" : {
+      "path" : "XG-Demo.app",
+      "isa" : "PBXFileReference",
+      "includeInIndex" : "0",
+      "explicitFileType" : "wrapper.application",
+      "sourceTree" : "BUILT_PRODUCTS_DIR"
+    },
+    "689C13791DC34C26001D8E6C" : {
+      "isa" : "PBXGroup",
+      "name" : "Products",
+      "children" : [
+        "689C13781DC34C26001D8E6C",
+        "C24A70FB1F3AB710007F2360",
+        "C24A710D1F3AB75D007F2360"
+      ],
+      "sourceTree" : "<group>"
+    },
+    "C24A70F81F3AB710007F2360" : {
+      "isa" : "PBXFrameworksBuildPhase",
+      "buildActionMask" : "2147483647",
+      "files" : [
+        "C26B2A221FCEACED00935B03",
+        "C26B2A211FCEACC200935B03",
+        "C2BE502C1FE936D500D593AA"
+      ],
+      "runOnlyForDeploymentPostprocessing" : "0"
+    },
+    "B70192591E53F05E00327327" : {
+      "path" : "XG-DemoUITests",
+      "isa" : "PBXGroup",
+      "children" : [
+        "B701925A1E53F05E00327327",
+        "B701925C1E53F05E00327327"
+      ],
+      "sourceTree" : "<group>"
+    },
+    "C24A70F91F3AB710007F2360" : {
+      "isa" : "PBXResourcesBuildPhase",
+      "buildActionMask" : "2147483647",
+      "files" : [
+
+      ],
+      "runOnlyForDeploymentPostprocessing" : "0"
+    },
+    "C24A71191F3AB75D007F2360" : {
+      "isa" : "PBXContainerItemProxy",
+      "containerPortal" : "689C13701DC34C26001D8E6C",
+      "remoteGlobalIDString" : "C24A710C1F3AB75D007F2360",
+      "remoteInfo" : "XGContent",
+      "proxyType" : "1"
+    },
+    "C26B2A211FCEACC200935B03" : {
+      "isa" : "PBXBuildFile",
+      "fileRef" : "C26B2A201FCEACC200935B03"
+    },
+    "689C138B1DC34C27001D8E6C" : {
+      "isa" : "PBXBuildFile",
+      "fileRef" : "689C13891DC34C27001D8E6C"
+    },
+    "689C138C1DC34C27001D8E6C" : {
+      "path" : "Info.plist",
+      "isa" : "PBXFileReference",
+      "lastKnownFileType" : "text.plist.xml",
+      "sourceTree" : "<group>"
+    },
+    "689C137F1DC34C26001D8E6C" : {
+      "path" : "AppDelegate.m",
+      "isa" : "PBXFileReference",
+      "lastKnownFileType" : "sourcecode.c.objc",
+      "sourceTree" : "<group>"
+    },
+    "C24A71181F3AB75D007F2360" : {
+      "path" : "Info.plist",
+      "isa" : "PBXFileReference",
+      "lastKnownFileType" : "text.plist.xml",
+      "sourceTree" : "<group>"
+    },
+    "C26B2A201FCEACC200935B03" : {
+      "path" : "usr\/lib\/libsqlite3.tbd",
+      "isa" : "PBXFileReference",
+      "name" : "libsqlite3.tbd",
+      "lastKnownFileType" : "sourcecode.text-based-dylib-definition",
+      "sourceTree" : "SDKROOT"
+    },
+    "689C13801DC34C26001D8E6C" : {
+      "isa" : "PBXBuildFile",
+      "fileRef" : "689C137F1DC34C26001D8E6C"
+    },
+    "C24A71081F3AB710007F2360" : {
+      "buildActionMask" : "2147483647",
+      "dstSubfolderSpec" : "13",
+      "isa" : "PBXCopyFilesBuildPhase",
+      "runOnlyForDeploymentPostprocessing" : "0",
+      "dstPath" : "",
+      "files" : [
+        "C24A71031F3AB710007F2360",
+        "C24A711B1F3AB75D007F2360"
+      ],
+      "name" : "Embed App Extensions"
+    },
+    "C24A71071F3AB710007F2360" : {
+      "isa" : "XCBuildConfiguration",
+      "buildSettings" : {
+        "ONLY_ACTIVE_ARCH" : "NO",
+        "CLANG_WARN_SUSPICIOUS_MOVE" : "YES",
+        "LD_RUNPATH_SEARCH_PATHS" : "$(inherited) @executable_path\/Frameworks @executable_path\/..\/..\/Frameworks",
+        "DEVELOPMENT_TEAM" : "299MFJ63GP",
+        "PROVISIONING_PROFILE" : "4fa06929-99da-4177-a0bf-6d3b982be84a",
+        "INFOPLIST_FILE" : "XGService\/Info.plist",
+        "SKIP_INSTALL" : "YES",
+        "CODE_SIGN_IDENTITY" : "iPhone Developer: guo dong li (8JQ353ME6X)",
+        "PROVISIONING_PROFILE_SPECIFIER" : "common_dev",
+        "CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION" : "YES_AGGRESSIVE",
+        "CODE_SIGN_IDENTITY[sdk=iphoneos*]" : "iPhone Developer: guo dong li (8JQ353ME6X)",
+        "PRODUCT_NAME" : "$(TARGET_NAME)",
+        "IPHONEOS_DEPLOYMENT_TARGET" : "10.0",
+        "PRODUCT_BUNDLE_IDENTIFIER" : "com.tencent.teg.XGDemo.XGService",
+        "LIBRARY_SEARCH_PATHS" : [
+          "$(inherited)",
+          "$(PROJECT_DIR)\/XGService",
+          "$(PROJECT_DIR)\/sdk\/extesion"
+        ]
+      },
+      "name" : "DailyBuild"
+    },
+    "689C13821DC34C27001D8E6C" : {
+      "path" : "ViewController.m",
+      "isa" : "PBXFileReference",
+      "lastKnownFileType" : "sourcecode.c.objc",
+      "sourceTree" : "<group>"
+    },
+    "689C13751DC34C26001D8E6C" : {
+      "isa" : "PBXFrameworksBuildPhase",
+      "buildActionMask" : "2147483647",
+      "files" : [
+        "C2735D2F1F3077EA007F4985",
+        "6812E5B71E14F4E700389FB9",
+        "689C13A61DC34D63001D8E6C",
+        "689C13A51DC34D5B001D8E6C",
+        "689C13A31DC34D22001D8E6C"
+      ],
+      "runOnlyForDeploymentPostprocessing" : "0"
+    },
+    "689C13761DC34C26001D8E6C" : {
+      "isa" : "PBXResourcesBuildPhase",
+      "buildActionMask" : "2147483647",
+      "files" : [
+        "689C138B1DC34C27001D8E6C",
+        "689C13881DC34C27001D8E6C",
+        "689C13861DC34C27001D8E6C"
+      ],
+      "runOnlyForDeploymentPostprocessing" : "0"
+    },
+    "689C13771DC34C26001D8E6C" : {
+      "buildConfigurationList" : "689C138F1DC34C27001D8E6C",
+      "productReference" : "689C13781DC34C26001D8E6C",
+      "productType" : "com.apple.product-type.application",
+      "productName" : "XG-Demo",
+      "isa" : "PBXNativeTarget",
+      "buildPhases" : [
+        "689C13741DC34C26001D8E6C",
+        "689C13751DC34C26001D8E6C",
+        "689C13761DC34C26001D8E6C",
+        "C24A71081F3AB710007F2360"
+      ],
+      "dependencies" : [
+        "C24A71021F3AB710007F2360",
+        "C24A711A1F3AB75D007F2360"
+      ],
+      "name" : "XG-Demo",
+      "buildRules" : [
+
+      ]
+    },
+    "C24A70F71F3AB710007F2360" : {
+      "isa" : "PBXSourcesBuildPhase",
+      "buildActionMask" : "2147483647",
+      "files" : [
+        "C24A70FF1F3AB710007F2360"
+      ],
+      "runOnlyForDeploymentPostprocessing" : "0"
+    },
+    "C24A71161F3AB75D007F2360" : {
+      "path" : "Base.lproj\/MainInterface.storyboard",
+      "isa" : "PBXFileReference",
+      "name" : "Base",
+      "lastKnownFileType" : "file.storyboard",
+      "sourceTree" : "<group>"
+    },
+    "689C139E1DC34CF4001D8E6C" : {
+      "path" : "System\/Library\/Frameworks\/CoreTelephony.framework",
+      "isa" : "PBXFileReference",
+      "name" : "CoreTelephony.framework",
+      "lastKnownFileType" : "wrapper.framework",
+      "sourceTree" : "SDKROOT"
+    },
+    "C24A71171F3AB75D007F2360" : {
+      "isa" : "PBXBuildFile",
+      "fileRef" : "C24A71151F3AB75D007F2360"
+    },
+    "689C138A1DC34C27001D8E6C" : {
+      "path" : "Base.lproj\/LaunchScreen.storyboard",
+      "isa" : "PBXFileReference",
+      "name" : "Base",
+      "lastKnownFileType" : "file.storyboard",
+      "sourceTree" : "<group>"
+    },
+    "689C137E1DC34C26001D8E6C" : {
+      "path" : "AppDelegate.h",
+      "isa" : "PBXFileReference",
+      "lastKnownFileType" : "sourcecode.c.h",
+      "sourceTree" : "<group>"
+    },
+    "C24A70FE1F3AB710007F2360" : {
+      "path" : "NotificationService.m",
+      "isa" : "PBXFileReference",
+      "lastKnownFileType" : "sourcecode.c.objc",
+      "sourceTree" : "<group>"
+    },
+    "C24A70FF1F3AB710007F2360" : {
+      "isa" : "PBXBuildFile",
+      "fileRef" : "C24A70FE1F3AB710007F2360"
+    },
+    "689C137D1DC34C26001D8E6C" : {
+      "isa" : "PBXBuildFile",
+      "fileRef" : "689C137C1DC34C26001D8E6C"
+    },
+    "68558C9A1F4ABC79009A87D2" : {
+      "path" : "..\/..\/..\/..\/..\/..\/Library\/Developer\/Xcode\/DerivedData\/XG-grwplvxvfqqyugfltpvrlisyhwsr\/Build\/Products\/Debug-iphoneos\/libXG-SDK.a",
+      "isa" : "PBXFileReference",
+      "name" : "libXG-SDK.a",
+      "lastKnownFileType" : "archive.ar",
+      "sourceTree" : "<group>"
+    },
+    "689C139C1DC34CEB001D8E6C" : {
+      "path" : "System\/Library\/Frameworks\/CFNetwork.framework",
+      "isa" : "PBXFileReference",
+      "name" : "CFNetwork.framework",
+      "lastKnownFileType" : "wrapper.framework",
+      "sourceTree" : "SDKROOT"
+    },
+    "6812E5B71E14F4E700389FB9" : {
+      "isa" : "PBXBuildFile",
+      "fileRef" : "6812E5B61E14F4E700389FB9"
+    },
+    "68558C9B1F4ABC79009A87D2" : {
+      "path" : "..\/..\/..\/..\/..\/..\/Library\/Developer\/Xcode\/DerivedData\/XG-grwplvxvfqqyugfltpvrlisyhwsr\/Build\/Products\/Debug-iphoneos\/libxgidfaplugin.a",
+      "isa" : "PBXFileReference",
+      "name" : "libxgidfaplugin.a",
+      "lastKnownFileType" : "archive.ar",
+      "sourceTree" : "<group>"
+    },
+    "C2735D2E1F3077EA007F4985" : {
+      "path" : "usr\/lib\/libsqlite3.0.tbd",
+      "isa" : "PBXFileReference",
+      "name" : "libsqlite3.0.tbd",
+      "lastKnownFileType" : "sourcecode.text-based-dylib-definition",
+      "sourceTree" : "SDKROOT"
+    },
+    "C2735D2F1F3077EA007F4985" : {
+      "isa" : "PBXBuildFile",
+      "fileRef" : "C2735D2E1F3077EA007F4985"
+    },
+    "C24A70F31F3AB649007F2360" : {
+      "isa" : "XCBuildConfiguration",
+      "buildSettings" : {
+        "CODE_SIGN_IDENTITY" : "iPhone Developer: guo dong li (8JQ353ME6X)",
+        "DEVELOPMENT_TEAM" : "299MFJ63GP",
+        "PROVISIONING_PROFILE" : "8d5bf0f0-6ea7-490d-9ca9-aec0fe0c7020",
+        "PROVISIONING_PROFILE_SPECIFIER" : "8d5bf0f0-6ea7-490d-9ca9-aec0fe0c7020",
+        "PRODUCT_NAME" : "$(TARGET_NAME)"
+      },
+      "name" : "DailyBuild"
+    },
+    "C24A71051F3AB710007F2360" : {
+      "isa" : "XCBuildConfiguration",
+      "buildSettings" : {
+        "ONLY_ACTIVE_ARCH" : "NO",
+        "CLANG_WARN_SUSPICIOUS_MOVE" : "YES",
+        "LD_RUNPATH_SEARCH_PATHS" : "$(inherited) @executable_path\/Frameworks @executable_path\/..\/..\/Frameworks",
+        "DEVELOPMENT_TEAM" : "299MFJ63GP",
+        "PROVISIONING_PROFILE" : "4fa06929-99da-4177-a0bf-6d3b982be84a",
+        "INFOPLIST_FILE" : "XGService\/Info.plist",
+        "SKIP_INSTALL" : "YES",
+        "CODE_SIGN_IDENTITY" : "iPhone Developer: guo dong li (8JQ353ME6X)",
+        "PROVISIONING_PROFILE_SPECIFIER" : "common_dev",
+        "CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION" : "YES_AGGRESSIVE",
+        "CODE_SIGN_IDENTITY[sdk=iphoneos*]" : "iPhone Developer: guo dong li (8JQ353ME6X)",
+        "PRODUCT_NAME" : "$(TARGET_NAME)",
+        "IPHONEOS_DEPLOYMENT_TARGET" : "10.0",
+        "PRODUCT_BUNDLE_IDENTIFIER" : "com.tencent.teg.XGDemo.XGService",
+        "LIBRARY_SEARCH_PATHS" : [
+          "$(inherited)",
+          "$(PROJECT_DIR)\/XGService",
+          "$(PROJECT_DIR)\/sdk\/extesion"
+        ]
+      },
+      "name" : "Debug"
+    },
+    "C24A71061F3AB710007F2360" : {
+      "isa" : "XCBuildConfiguration",
+      "buildSettings" : {
+        "ONLY_ACTIVE_ARCH" : "NO",
+        "CLANG_WARN_SUSPICIOUS_MOVE" : "YES",
+        "LD_RUNPATH_SEARCH_PATHS" : "$(inherited) @executable_path\/Frameworks @executable_path\/..\/..\/Frameworks",
+        "DEVELOPMENT_TEAM" : "299MFJ63GP",
+        "PROVISIONING_PROFILE" : "4fa06929-99da-4177-a0bf-6d3b982be84a",
+        "INFOPLIST_FILE" : "XGService\/Info.plist",
+        "SKIP_INSTALL" : "YES",
+        "CODE_SIGN_IDENTITY" : "iPhone Developer: guo dong li (8JQ353ME6X)",
+        "PROVISIONING_PROFILE_SPECIFIER" : "common_dev",
+        "CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION" : "YES_AGGRESSIVE",
+        "CODE_SIGN_IDENTITY[sdk=iphoneos*]" : "iPhone Developer: guo dong li (8JQ353ME6X)",
+        "PRODUCT_NAME" : "$(TARGET_NAME)",
+        "IPHONEOS_DEPLOYMENT_TARGET" : "10.0",
+        "PRODUCT_BUNDLE_IDENTIFIER" : "com.tencent.teg.XGDemo.XGService",
+        "LIBRARY_SEARCH_PATHS" : [
+          "$(inherited)",
+          "$(PROJECT_DIR)\/XGService",
+          "$(PROJECT_DIR)\/sdk\/extesion"
+        ]
+      },
+      "name" : "Release"
+    },
+    "C24A711E1F3AB75D007F2360" : {
+      "isa" : "XCBuildConfiguration",
+      "buildSettings" : {
+        "LD_RUNPATH_SEARCH_PATHS" : "$(inherited) @executable_path\/Frameworks @executable_path\/..\/..\/Frameworks",
+        "CLANG_WARN_SUSPICIOUS_MOVE" : "YES",
+        "DEVELOPMENT_TEAM" : "299MFJ63GP",
+        "INFOPLIST_FILE" : "XGContent\/Info.plist",
+        "SKIP_INSTALL" : "YES",
+        "CODE_SIGN_IDENTITY" : "iPhone Developer: guo dong li (8JQ353ME6X)",
+        "PROVISIONING_PROFILE_SPECIFIER" : "common_dev",
+        "CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION" : "YES_AGGRESSIVE",
+        "CODE_SIGN_IDENTITY[sdk=iphoneos*]" : "iPhone Developer: guo dong li (8JQ353ME6X)",
+        "PRODUCT_NAME" : "$(TARGET_NAME)",
+        "IPHONEOS_DEPLOYMENT_TARGET" : "10.0",
+        "PRODUCT_BUNDLE_IDENTIFIER" : "com.tencent.teg.XGDemo.XGContent",
+        "PROVISIONING_PROFILE" : "4fa06929-99da-4177-a0bf-6d3b982be84a"
+      },
+      "name" : "Release"
+    },
+    "C24A711F1F3AB75D007F2360" : {
+      "isa" : "XCBuildConfiguration",
+      "buildSettings" : {
+        "LD_RUNPATH_SEARCH_PATHS" : "$(inherited) @executable_path\/Frameworks @executable_path\/..\/..\/Frameworks",
+        "CLANG_WARN_SUSPICIOUS_MOVE" : "YES",
+        "DEVELOPMENT_TEAM" : "299MFJ63GP",
+        "INFOPLIST_FILE" : "XGContent\/Info.plist",
+        "SKIP_INSTALL" : "YES",
+        "CODE_SIGN_IDENTITY" : "iPhone Developer: guo dong li (8JQ353ME6X)",
+        "PROVISIONING_PROFILE_SPECIFIER" : "common_dev",
+        "CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION" : "YES_AGGRESSIVE",
+        "CODE_SIGN_IDENTITY[sdk=iphoneos*]" : "iPhone Developer: guo dong li (8JQ353ME6X)",
+        "PRODUCT_NAME" : "$(TARGET_NAME)",
+        "IPHONEOS_DEPLOYMENT_TARGET" : "10.0",
+        "PRODUCT_BUNDLE_IDENTIFIER" : "com.tencent.teg.XGDemo.XGContent",
+        "PROVISIONING_PROFILE" : "4fa06929-99da-4177-a0bf-6d3b982be84a"
+      },
+      "name" : "DailyBuild"
+    },
+    "689C13741DC34C26001D8E6C" : {
+      "isa" : "PBXSourcesBuildPhase",
+      "buildActionMask" : "2147483647",
+      "files" : [
+        "689C13831DC34C27001D8E6C",
+        "689C13801DC34C26001D8E6C",
+        "689C137D1DC34C26001D8E6C"
+      ],
+      "runOnlyForDeploymentPostprocessing" : "0"
+    },
+    "689C13731DC34C26001D8E6C" : {
+      "isa" : "XCConfigurationList",
+      "defaultConfigurationIsVisible" : "0",
+      "defaultConfigurationName" : "Release",
+      "buildConfigurations" : [
+        "689C138D1DC34C27001D8E6C",
+        "689C138E1DC34C27001D8E6C",
+        "C24A70EF1F3AB649007F2360"
+      ]
+    },
+    "C24A71141F3AB75D007F2360" : {
+      "isa" : "PBXBuildFile",
+      "fileRef" : "C24A71131F3AB75D007F2360"
+    },
+    "C24A71151F3AB75D007F2360" : {
+      "isa" : "PBXVariantGroup",
+      "name" : "MainInterface.storyboard",
+      "children" : [
+        "C24A71161F3AB75D007F2360"
+      ],
+      "sourceTree" : "<group>"
+    },
+    "C26B2A1E1FCEA8FC00935B03" : {
+      "path" : "XGExtension.h",
+      "isa" : "PBXFileReference",
+      "sourceTree" : "<group>",
+      "fileEncoding" : "4",
+      "lastKnownFileType" : "sourcecode.c.h"
+    },
+    "C24A70FD1F3AB710007F2360" : {
+      "path" : "NotificationService.h",
+      "isa" : "PBXFileReference",
+      "lastKnownFileType" : "sourcecode.c.h",
+      "sourceTree" : "<group>"
+    },
+    "689C137B1DC34C26001D8E6C" : {
+      "isa" : "PBXGroup",
+      "name" : "Supporting Files",
+      "children" : [
+        "689C137C1DC34C26001D8E6C"
+      ],
+      "sourceTree" : "<group>"
+    },
+    "689C137C1DC34C26001D8E6C" : {
+      "path" : "main.m",
+      "isa" : "PBXFileReference",
+      "lastKnownFileType" : "sourcecode.c.objc",
+      "sourceTree" : "<group>"
+    },
+    "C24A70FC1F3AB710007F2360" : {
+      "path" : "XGService",
+      "isa" : "PBXGroup",
+      "children" : [
+        "C26B2A1E1FCEA8FC00935B03",
+        "C2BE502B1FE936D500D593AA",
+        "C24A70FD1F3AB710007F2360",
+        "C24A70FE1F3AB710007F2360",
+        "C24A71001F3AB710007F2360"
+      ],
+      "sourceTree" : "<group>"
+    },
+    "B701925C1E53F05E00327327" : {
+      "path" : "Info.plist",
+      "isa" : "PBXFileReference",
+      "lastKnownFileType" : "text.plist.xml",
+      "sourceTree" : "<group>"
+    },
+    "C24A70F01F3AB649007F2360" : {
+      "isa" : "XCBuildConfiguration",
+      "buildSettings" : {
+        "LD_RUNPATH_SEARCH_PATHS" : "$(inherited) @executable_path\/Frameworks",
+        "PRODUCT_NAME" : "$(TARGET_NAME)",
+        "DEVELOPMENT_TEAM" : "299MFJ63GP",
+        "PROVISIONING_PROFILE" : "5b3bdba7-3360-4930-ac8e-29064294548a",
+        "TARGETED_DEVICE_FAMILY" : "1",
+        "INFOPLIST_FILE" : "XG-Demo\/Info.plist",
+        "CODE_SIGN_IDENTITY" : "iPhone Developer: guo dong li (8JQ353ME6X)",
+        "PROVISIONING_PROFILE_SPECIFIER" : "xgdemo_dev",
+        "CODE_SIGN_ENTITLEMENTS" : "XG-Demo\/XG-Demo.entitlements",
+        "ASSETCATALOG_COMPILER_APPICON_NAME" : "AppIcon",
+        "OTHER_LDFLAGS" : "-ObjC",
+        "CODE_SIGN_IDENTITY[sdk=iphoneos*]" : "iPhone Developer: guo dong li (8JQ353ME6X)",
+        "IPHONEOS_DEPLOYMENT_TARGET" : "8.0",
+        "LIBRARY_SEARCH_PATHS" : [
+          "$(inherited)",
+          "$(PROJECT_DIR)\/sdk"
+        ],
+        "PRODUCT_BUNDLE_IDENTIFIER" : "com.tencent.teg.XGDemo"
+      },
+      "name" : "DailyBuild"
+    },
+    "689C139B1DC34CEB001D8E6C" : {
+      "isa" : "PBXGroup",
+      "name" : "Frameworks",
+      "children" : [
+        "68FAA47220720D7B00B1196D",
+        "C2BE50261FE934EE00D593AA",
+        "C25D80F91FDEA83300057666",
+        "C26B2A201FCEACC200935B03",
+        "68558C9A1F4ABC79009A87D2",
+        "68558C9B1F4ABC79009A87D2",
+        "C2735D2E1F3077EA007F4985",
+        "6812E5B61E14F4E700389FB9",
+        "689C13A41DC34D5B001D8E6C",
+        "689C13A21DC34D22001D8E6C",
+        "689C139E1DC34CF4001D8E6C",
+        "689C139C1DC34CEB001D8E6C",
+        "C24A710F1F3AB75D007F2360"
+      ],
+      "sourceTree" : "<group>"
+    },
+    "68FAA47220720D7B00B1196D" : {
+      "path" : "libXG-SDK_Simulator.a",
+      "isa" : "PBXFileReference",
+      "explicitFileType" : "archive.ar",
+      "sourceTree" : "BUILT_PRODUCTS_DIR"
+    },
+    "6812E5B61E14F4E700389FB9" : {
+      "path" : "System\/Library\/Frameworks\/UserNotifications.framework",
+      "isa" : "PBXFileReference",
+      "name" : "UserNotifications.framework",
+      "lastKnownFileType" : "wrapper.framework",
+      "sourceTree" : "SDKROOT"
+    },
+    "689C13A61DC34D63001D8E6C" : {
+      "isa" : "PBXBuildFile",
+      "fileRef" : "689C139E1DC34CF4001D8E6C"
+    },
+    "C24A71031F3AB710007F2360" : {
+      "isa" : "PBXBuildFile",
+      "fileRef" : "C24A70FB1F3AB710007F2360",
+      "settings" : {
+        "ATTRIBUTES" : [
+          "RemoveHeadersOnCopy"
+        ]
+      }
+    },
+    "C24A70F61F3AB6C1007F2360" : {
+      "inputPaths" : [
+
+      ],
+      "buildActionMask" : "2147483647",
+      "shellPath" : "\/bin\/sh",
+      "isa" : "PBXShellScriptBuildPhase",
+      "outputPaths" : [
+
+      ],
+      "runOnlyForDeploymentPostprocessing" : "0",
+      "shellScript" : "# compress application.\n\n\/bin\/mkdir $CONFIGURATION_BUILD_DIR\/Payload\n\n\/bin\/cp -R $CONFIGURATION_BUILD_DIR\/XG-Demo.app $CONFIGURATION_BUILD_DIR\/Payload\n\n\/bin\/cp images\/logo_itunes.png $CONFIGURATION_BUILD_DIR\/iTunesArtwork\n\ncd $CONFIGURATION_BUILD_DIR\n\n# zip up the HelloWorld directory\n\n\/usr\/bin\/zip -r XG-Demo.ipa Payload iTunesArtwork",
+      "files" : [
+
+      ]
+    },
+    "C24A711D1F3AB75D007F2360" : {
+      "isa" : "XCBuildConfiguration",
+      "buildSettings" : {
+        "LD_RUNPATH_SEARCH_PATHS" : "$(inherited) @executable_path\/Frameworks @executable_path\/..\/..\/Frameworks",
+        "CLANG_WARN_SUSPICIOUS_MOVE" : "YES",
+        "DEVELOPMENT_TEAM" : "299MFJ63GP",
+        "INFOPLIST_FILE" : "XGContent\/Info.plist",
+        "SKIP_INSTALL" : "YES",
+        "CODE_SIGN_IDENTITY" : "iPhone Developer: guo dong li (8JQ353ME6X)",
+        "PROVISIONING_PROFILE_SPECIFIER" : "common_dev",
+        "CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION" : "YES_AGGRESSIVE",
+        "CODE_SIGN_IDENTITY[sdk=iphoneos*]" : "iPhone Developer: guo dong li (8JQ353ME6X)",
+        "PRODUCT_NAME" : "$(TARGET_NAME)",
+        "IPHONEOS_DEPLOYMENT_TARGET" : "10.0",
+        "PRODUCT_BUNDLE_IDENTIFIER" : "com.tencent.teg.XGDemo.XGContent",
+        "PROVISIONING_PROFILE" : "4fa06929-99da-4177-a0bf-6d3b982be84a"
+      },
+      "name" : "Debug"
+    },
+    "C24A71041F3AB710007F2360" : {
+      "isa" : "XCConfigurationList",
+      "defaultConfigurationIsVisible" : "0",
+      "defaultConfigurationName" : "Release",
+      "buildConfigurations" : [
+        "C24A71051F3AB710007F2360",
+        "C24A71061F3AB710007F2360",
+        "C24A71071F3AB710007F2360"
+      ]
+    },
+    "C24A711C1F3AB75D007F2360" : {
+      "isa" : "XCConfigurationList",
+      "defaultConfigurationIsVisible" : "0",
+      "defaultConfigurationName" : "Release",
+      "buildConfigurations" : [
+        "C24A711D1F3AB75D007F2360",
+        "C24A711E1F3AB75D007F2360",
+        "C24A711F1F3AB75D007F2360"
+      ]
+    },
+    "C2BE50261FE934EE00D593AA" : {
+      "path" : "sdk\/extesion\/libxgidfa.a",
+      "isa" : "PBXFileReference",
+      "name" : "libxgidfa.a",
+      "lastKnownFileType" : "archive.ar",
+      "sourceTree" : "<group>"
+    },
+    "C24A70F41F3AB6BE007F2360" : {
+      "isa" : "PBXContainerItemProxy",
+      "containerPortal" : "689C13701DC34C26001D8E6C",
+      "remoteGlobalIDString" : "689C13771DC34C26001D8E6C",
+      "remoteInfo" : "XG-Demo",
+      "proxyType" : "1"
+    },
+    "C24A70F51F3AB6BE007F2360" : {
+      "isa" : "PBXTargetDependency",
+      "target" : "689C13771DC34C26001D8E6C",
+      "targetProxy" : "C24A70F41F3AB6BE007F2360"
+    },
+    "C24A70ED1F3AB642007F2360" : {
+      "isa" : "XCBuildConfiguration",
+      "buildSettings" : {
+        "CODE_SIGN_IDENTITY" : "iPhone Developer: guo dong li (8JQ353ME6X)",
+        "DEVELOPMENT_TEAM" : "299MFJ63GP",
+        "PROVISIONING_PROFILE" : "8d5bf0f0-6ea7-490d-9ca9-aec0fe0c7020",
+        "PRODUCT_NAME" : "$(TARGET_NAME)"
+      },
+      "name" : "Release"
+    },
+    "C24A70EE1F3AB642007F2360" : {
+      "isa" : "XCConfigurationList",
+      "defaultConfigurationIsVisible" : "0",
+      "defaultConfigurationName" : "Release",
+      "buildConfigurations" : [
+        "C24A70EC1F3AB642007F2360",
+        "C24A70ED1F3AB642007F2360",
+        "C24A70F31F3AB649007F2360"
+      ]
+    },
+    "C24A71131F3AB75D007F2360" : {
+      "path" : "NotificationViewController.m",
+      "isa" : "PBXFileReference",
+      "lastKnownFileType" : "sourcecode.c.objc",
+      "sourceTree" : "<group>"
+    },
+    "C24A71121F3AB75D007F2360" : {
+      "path" : "NotificationViewController.h",
+      "isa" : "PBXFileReference",
+      "lastKnownFileType" : "sourcecode.c.h",
+      "sourceTree" : "<group>"
+    },
+    "C24A70FA1F3AB710007F2360" : {
+      "buildConfigurationList" : "C24A71041F3AB710007F2360",
+      "productReference" : "C24A70FB1F3AB710007F2360",
+      "productType" : "com.apple.product-type.app-extension",
+      "productName" : "XGService",
+      "isa" : "PBXNativeTarget",
+      "buildPhases" : [
+        "C24A70F71F3AB710007F2360",
+        "C24A70F81F3AB710007F2360",
+        "C24A70F91F3AB710007F2360"
+      ],
+      "dependencies" : [
+
+      ],
+      "name" : "XGService",
+      "buildRules" : [
+
+      ]
+    },
+    "C24A70FB1F3AB710007F2360" : {
+      "path" : "XGService.appex",
+      "isa" : "PBXFileReference",
+      "includeInIndex" : "0",
+      "explicitFileType" : "wrapper.app-extension",
+      "sourceTree" : "BUILT_PRODUCTS_DIR"
+    },
+    "B701925A1E53F05E00327327" : {
+      "path" : "XG_DemoUITests.m",
+      "isa" : "PBXFileReference",
+      "lastKnownFileType" : "sourcecode.c.objc",
+      "sourceTree" : "<group>"
+    },
+    "689C137A1DC34C26001D8E6C" : {
+      "path" : "XG-Demo",
+      "isa" : "PBXGroup",
+      "children" : [
+        "689C139A1DC34C54001D8E6C",
+        "689C137E1DC34C26001D8E6C",
+        "689C137F1DC34C26001D8E6C",
+        "689C13811DC34C26001D8E6C",
+        "689C13821DC34C27001D8E6C",
+        "689C13841DC34C27001D8E6C",
+        "689C13871DC34C27001D8E6C",
+        "689C13891DC34C27001D8E6C",
+        "689C138C1DC34C27001D8E6C",
+        "689C137B1DC34C26001D8E6C"
+      ],
+      "sourceTree" : "<group>"
+    },
+    "C24A70EF1F3AB649007F2360" : {
+      "isa" : "XCBuildConfiguration",
+      "buildSettings" : {
+        "ENABLE_NS_ASSERTIONS" : "NO",
+        "CLANG_CXX_LIBRARY" : "libc++",
+        "CLANG_ENABLE_OBJC_ARC" : "YES",
+        "CLANG_WARN_DIRECT_OBJC_ISA_USAGE" : "YES_ERROR",
+        "GCC_WARN_UNDECLARED_SELECTOR" : "YES",
+        "CLANG_WARN__DUPLICATE_METHOD_MATCH" : "YES",
+        "CLANG_WARN_INFINITE_RECURSION" : "YES",
+        "CODE_SIGN_IDENTITY[sdk=iphoneos*]" : "iPhone Developer",
+        "SDKROOT" : "iphoneos",
+        "CLANG_CXX_LANGUAGE_STANDARD" : "gnu++0x",
+        "CLANG_WARN_BOOL_CONVERSION" : "YES",
+        "CLANG_WARN_UNREACHABLE_CODE" : "YES",
+        "ENABLE_STRICT_OBJC_MSGSEND" : "YES",
+        "CLANG_ANALYZER_NONNULL" : "YES",
+        "CLANG_WARN_ENUM_CONVERSION" : "YES",
+        "GCC_WARN_64_TO_32_BIT_CONVERSION" : "YES",
+        "CLANG_WARN_SUSPICIOUS_MOVES" : "YES",
+        "GCC_WARN_UNINITIALIZED_AUTOS" : "YES_AGGRESSIVE",
+        "CLANG_WARN_EMPTY_BODY" : "YES",
+        "GCC_WARN_ABOUT_RETURN_TYPE" : "YES_ERROR",
+        "GCC_WARN_UNUSED_VARIABLE" : "YES",
+        "GCC_C_LANGUAGE_STANDARD" : "gnu99",
+        "CLANG_ENABLE_MODULES" : "YES",
+        "GCC_NO_COMMON_BLOCKS" : "YES",
+        "CLANG_WARN_INT_CONVERSION" : "YES",
+        "ALWAYS_SEARCH_USER_PATHS" : "NO",
+        "CLANG_WARN_OBJC_ROOT_CLASS" : "YES_ERROR",
+        "MTL_ENABLE_DEBUG_INFO" : "NO",
+        "COPY_PHASE_STRIP" : "NO",
+        "CLANG_WARN_CONSTANT_CONVERSION" : "YES",
+        "TARGETED_DEVICE_FAMILY" : "1,2",
+        "VALIDATE_PRODUCT" : "YES",
+        "GCC_WARN_UNUSED_FUNCTION" : "YES",
+        "DEBUG_INFORMATION_FORMAT" : "dwarf-with-dsym",
+        "IPHONEOS_DEPLOYMENT_TARGET" : "8.0",
+        "CLANG_WARN_DOCUMENTATION_COMMENTS" : "YES"
+      },
+      "name" : "DailyBuild"
+    },
+    "C24A711B1F3AB75D007F2360" : {
+      "isa" : "PBXBuildFile",
+      "fileRef" : "C24A710D1F3AB75D007F2360",
+      "settings" : {
+        "ATTRIBUTES" : [
+          "RemoveHeadersOnCopy"
+        ]
+      }
+    },
+    "C24A711A1F3AB75D007F2360" : {
+      "isa" : "PBXTargetDependency",
+      "target" : "C24A710C1F3AB75D007F2360",
+      "targetProxy" : "C24A71191F3AB75D007F2360"
+    },
+    "C24A71011F3AB710007F2360" : {
+      "isa" : "PBXContainerItemProxy",
+      "containerPortal" : "689C13701DC34C26001D8E6C",
+      "remoteGlobalIDString" : "C24A70FA1F3AB710007F2360",
+      "remoteInfo" : "XGService",
+      "proxyType" : "1"
+    },
+    "C24A71091F3AB75D007F2360" : {
+      "isa" : "PBXSourcesBuildPhase",
+      "buildActionMask" : "2147483647",
+      "files" : [
+        "C24A71141F3AB75D007F2360"
+      ],
+      "runOnlyForDeploymentPostprocessing" : "0"
+    },
+    "C24A71021F3AB710007F2360" : {
+      "isa" : "PBXTargetDependency",
+      "target" : "C24A70FA1F3AB710007F2360",
+      "targetProxy" : "C24A71011F3AB710007F2360"
+    },
+    "689C136F1DC34C26001D8E6C" : {
+      "isa" : "PBXGroup",
+      "sourceTree" : "<group>",
+      "children" : [
+        "689C13921DC34C48001D8E6C",
+        "689C137A1DC34C26001D8E6C",
+        "B70192591E53F05E00327327",
+        "B7DC69551E56DA1E004C6362",
+        "C24A70FC1F3AB710007F2360",
+        "C24A71111F3AB75D007F2360",
+        "689C13791DC34C26001D8E6C",
+        "689C139B1DC34CEB001D8E6C"
+      ]
+    },
+    "689C13701DC34C26001D8E6C" : {
+      "buildConfigurationList" : "689C13731DC34C26001D8E6C",
+      "targets" : [
+        "689C13771DC34C26001D8E6C",
+        "C24A70EB1F3AB642007F2360",
+        "C24A70FA1F3AB710007F2360",
+        "C24A710C1F3AB75D007F2360"
+      ],
+      "developmentRegion" : "English",
+      "knownRegions" : [
+        "en",
+        "Base"
+      ],
+      "isa" : "PBXProject",
+      "compatibilityVersion" : "Xcode 3.2",
+      "productRefGroup" : "689C13791DC34C26001D8E6C",
+      "projectDirPath" : "",
+      "attributes" : {
+        "LastUpgradeCheck" : "0810",
+        "TargetAttributes" : {
+          "C24A70EB1F3AB642007F2360" : {
+            "DevelopmentTeam" : "299MFJ63GP",
+            "ProvisioningStyle" : "Automatic",
+            "CreatedOnToolsVersion" : "8.3.3"
+          },
+          "C24A70FA1F3AB710007F2360" : {
+            "DevelopmentTeam" : "299MFJ63GP",
+            "ProvisioningStyle" : "Manual",
+            "CreatedOnToolsVersion" : "8.3.3"
+          },
+          "689C13771DC34C26001D8E6C" : {
+            "SystemCapabilities" : {
+              "com.apple.BackgroundModes" : {
+                "enabled" : "1"
+              },
+              "com.apple.Push" : {
+                "enabled" : "1"
+              }
+            },
+            "ProvisioningStyle" : "Manual",
+            "DevelopmentTeam" : "299MFJ63GP",
+            "CreatedOnToolsVersion" : "8.1"
+          },
+          "C24A710C1F3AB75D007F2360" : {
+            "DevelopmentTeam" : "299MFJ63GP",
+            "ProvisioningStyle" : "Manual",
+            "CreatedOnToolsVersion" : "8.3.3"
+          }
+        },
+        "ORGANIZATIONNAME" : "tyzual"
+      },
+      "hasScannedForEncodings" : "0",
+      "projectRoot" : "",
+      "mainGroup" : "689C136F1DC34C26001D8E6C"
+    },
+    "689C139A1DC34C54001D8E6C" : {
+      "path" : "XG-Demo.entitlements",
+      "isa" : "PBXFileReference",
+      "lastKnownFileType" : "text.plist.entitlements",
+      "sourceTree" : "<group>"
+    },
+    "C24A70EB1F3AB642007F2360" : {
+      "buildConfigurationList" : "C24A70EE1F3AB642007F2360",
+      "isa" : "PBXAggregateTarget",
+      "productName" : "dailybuildipa",
+      "buildPhases" : [
+        "C24A70F61F3AB6C1007F2360"
+      ],
+      "dependencies" : [
+        "C24A70F51F3AB6BE007F2360"
+      ],
+      "name" : "dailybuildipa"
+    },
+    "C24A70EC1F3AB642007F2360" : {
+      "isa" : "XCBuildConfiguration",
+      "buildSettings" : {
+        "CODE_SIGN_IDENTITY" : "iPhone Developer: guo dong li (8JQ353ME6X)",
+        "DEVELOPMENT_TEAM" : "299MFJ63GP",
+        "PROVISIONING_PROFILE" : "8d5bf0f0-6ea7-490d-9ca9-aec0fe0c7020",
+        "PRODUCT_NAME" : "$(TARGET_NAME)"
+      },
+      "name" : "Debug"
+    },
+    "C24A71101F3AB75D007F2360" : {
+      "isa" : "PBXBuildFile",
+      "fileRef" : "C24A710F1F3AB75D007F2360"
+    },
+    "C24A71111F3AB75D007F2360" : {
+      "path" : "XGContent",
+      "isa" : "PBXGroup",
+      "children" : [
+        "C24A71121F3AB75D007F2360",
+        "C24A71131F3AB75D007F2360",
+        "C24A71151F3AB75D007F2360",
+        "C24A71181F3AB75D007F2360"
+      ],
+      "sourceTree" : "<group>"
+    },
+    "B7DC69581E56DA1E004C6362" : {
+      "path" : "Info.plist",
+      "isa" : "PBXFileReference",
+      "lastKnownFileType" : "text.plist.xml",
+      "sourceTree" : "<group>"
+    },
+    "689C13891DC34C27001D8E6C" : {
+      "isa" : "PBXVariantGroup",
+      "name" : "LaunchScreen.storyboard",
+      "children" : [
+        "689C138A1DC34C27001D8E6C"
+      ],
+      "sourceTree" : "<group>"
+    },
+    "689C13A51DC34D5B001D8E6C" : {
+      "isa" : "PBXBuildFile",
+      "fileRef" : "689C13A41DC34D5B001D8E6C"
+    },
+    "689C13A41DC34D5B001D8E6C" : {
+      "path" : "System\/Library\/Frameworks\/SystemConfiguration.framework",
+      "isa" : "PBXFileReference",
+      "name" : "SystemConfiguration.framework",
+      "lastKnownFileType" : "wrapper.framework",
+      "sourceTree" : "SDKROOT"
+    },
+    "C24A71001F3AB710007F2360" : {
+      "path" : "Info.plist",
+      "isa" : "PBXFileReference",
+      "lastKnownFileType" : "text.plist.xml",
+      "sourceTree" : "<group>"
+    },
+    "689C13911DC34C27001D8E6C" : {
+      "isa" : "XCBuildConfiguration",
+      "buildSettings" : {
+        "LD_RUNPATH_SEARCH_PATHS" : "$(inherited) @executable_path\/Frameworks",
+        "PRODUCT_NAME" : "$(TARGET_NAME)",
+        "DEVELOPMENT_TEAM" : "299MFJ63GP",
+        "PROVISIONING_PROFILE" : "5b3bdba7-3360-4930-ac8e-29064294548a",
+        "TARGETED_DEVICE_FAMILY" : "1",
+        "INFOPLIST_FILE" : "XG-Demo\/Info.plist",
+        "CODE_SIGN_IDENTITY" : "iPhone Developer: guo dong li (8JQ353ME6X)",
+        "PROVISIONING_PROFILE_SPECIFIER" : "xgdemo_dev",
+        "CODE_SIGN_ENTITLEMENTS" : "XG-Demo\/XG-Demo.entitlements",
+        "ASSETCATALOG_COMPILER_APPICON_NAME" : "AppIcon",
+        "OTHER_LDFLAGS" : "-ObjC",
+        "CODE_SIGN_IDENTITY[sdk=iphoneos*]" : "iPhone Developer: guo dong li (8JQ353ME6X)",
+        "IPHONEOS_DEPLOYMENT_TARGET" : "8.0",
+        "LIBRARY_SEARCH_PATHS" : [
+          "$(inherited)",
+          "$(PROJECT_DIR)\/sdk"
+        ],
+        "PRODUCT_BUNDLE_IDENTIFIER" : "com.tencent.teg.XGDemo"
+      },
+      "name" : "Release"
+    },
+    "689C13961DC34C48001D8E6C" : {
+      "path" : "XGPush.h",
+      "isa" : "PBXFileReference",
+      "sourceTree" : "<group>",
+      "fileEncoding" : "4",
+      "lastKnownFileType" : "sourcecode.c.h"
+    },
+    "C24A710E1F3AB75D007F2360" : {
+      "isa" : "PBXBuildFile",
+      "fileRef" : "6812E5B61E14F4E700389FB9"
+    },
+    "C24A710F1F3AB75D007F2360" : {
+      "path" : "System\/Library\/Frameworks\/UserNotificationsUI.framework",
+      "isa" : "PBXFileReference",
+      "name" : "UserNotificationsUI.framework",
+      "lastKnownFileType" : "wrapper.framework",
+      "sourceTree" : "SDKROOT"
+    }
+  },
+  "rootObject" : "689C13701DC34C26001D8E6C"
+}
